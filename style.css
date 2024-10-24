@@ -81,8 +81,7 @@ header ul{
     text-decoration: underline;
 }
 table{
-    display: inline-flex;
-    justify-content: center;
+    margin: 50px auto;
     border: solid 2px;
     padding: 20px;
 }
@@ -95,9 +94,6 @@ td,th{
 /* Formulaire */
 #form {
     background-color: #8d818c;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 20px 0px;
 }
 #form h2{
@@ -110,11 +106,20 @@ label{
     text-decoration: underline;
     font-size: 20px;
     font-weight: 600;
+    display: block;
+}
+input{
+    margin: 16px 0;
+    padding: 10px 30px ;
+    border-radius: 10px;
+    width: 500px;
 }
 textarea{
+    padding: 10px 30px ;
     width: 500px;
     height: 150px;
     max-width: 100%;
+    border-radius: 10px;
 }
 
 /* Illustration */
@@ -137,8 +142,14 @@ footer{
     background-color: #272727;
     height: 50px;
     text-align: center;
-    padding-top: 10px;
     color: #f75c03;
+    position: relative;
+}
+footer p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 footer a {
     text-decoration: none;
