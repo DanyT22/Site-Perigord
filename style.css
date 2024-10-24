@@ -1,0 +1,150 @@
+*{
+    margin: 0 0;
+    list-style: none;
+}
+body{
+    font-family:"arima";
+}
+p{
+    font-weight: 600;
+}
+h2{
+    text-decoration: underline;
+    color: #f75c03;
+}
+
+/* Menu Nav */
+header{
+    background-color: #272727;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+header ul{
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+    color: #f75c03;
+    font-size: 20px;
+}
+
+/* Presentation */
+#presentation{
+    position: relative;
+    top: 100px;
+    /* background-color: #a4b494; */
+    padding: 20px 0px 120px;
+    text-align: center;
+}
+.presentation{
+    display: block;
+}
+#presentation a {
+    display: inline-block;
+    color: black;
+    background-color: #f75c03;
+    font-weight: 900;
+}
+#presentation a:hover {
+    text-decoration: underline #f75c03;
+    color: #f75c03;
+    background-color: white;
+}
+
+/* Contact */
+#contact {
+    position: relative;
+    padding: 30px 0px;
+    background-color: #bbacc1;
+    text-align: center;
+}
+.coord{
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: underline;
+    color:black;
+}
+#contact a{
+    text-decoration: none;
+}
+
+/* Horaires */
+#horaire{
+    position: relative;
+    padding: 30px 0px;
+    background-color: #bbacc1;
+    text-align: center;
+}
+#horaire h2{
+    color: #f75c03;
+    text-decoration: underline;
+}
+table{
+    display: inline-flex;
+    justify-content: center;
+    border: solid 2px;
+    padding: 20px;
+}
+td,th{
+    border: solid 2px;
+    width: 200px;
+    padding: 20px;
+}
+
+/* Formulaire */
+#form {
+    background-color: #8d818c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0px;
+}
+#form h2{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+label{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 600;
+}
+textarea{
+    width: 500px;
+    height: 150px;
+    max-width: 100%;
+}
+
+/* Illustration */
+#illustration {
+    background-color: #4e4187;
+    text-align: center;
+    padding: 30px 0;
+}
+#image {
+    display: flex;
+    justify-content: space-around;
+}
+#image img{
+width: 30%;
+height: 30%;
+}
+
+/* Pied de page */
+footer{
+    background-color: #272727;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    color: #f75c03;
+}
+footer a {
+    text-decoration: none;
+    color: #f75c03;
+}
+footer a:hover {
+    text-decoration: underline yellow;
+    color: yellow;
+}
